@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := default
 
-IMAGE ?= docker.cluster.fun/private/base64:latest
+IMAGE ?= docker.cluster.fun/averagemarcus/base64:latest
 
 .PHONY: test # Run all tests, linting and format checks
 test: lint check-format run-tests
