@@ -67,7 +67,7 @@ ci:
 
 .PHONY: release # Release the latest version of the application
 release:
-	@echo "⚠️ 'release' unimplemented"
+	@kubectl --namespace base64 set image deployment base64 web=docker.cluster.fun/averagemarcus/base64:$(SHA)
 
 .PHONY: help # Show this list of commands
 help:

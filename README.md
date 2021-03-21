@@ -1,10 +1,20 @@
-# base64
+![Base64 Encode / Decode](logo.png)
 
 Web app to base64 encode and decode
 
+Available at https://base64.cluster.fun/
+
+## Building from source
+
+With Docker:
+
+```sh
+make docker-build
+```
+
 ## Contributing
 
-If you find a bug or have an idea for a new feature please raise an issue to discuss it.
+If you find a bug or have an idea for a new feature please [raise an issue](issues/new) to discuss it.
 
 Pull requests are welcomed but please try and follow similar code style as the rest of the project and ensure all tests and code checkers are passing.
 
